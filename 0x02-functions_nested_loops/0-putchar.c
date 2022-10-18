@@ -13,21 +13,25 @@ int main(void)
 
 {
 
-	int i;
+	putchar('_');
 
-	char p[] = "_putchar";
+	putchar('p');
+
+	putchar('u');
+
+	putchar('t');
+
+	putchar('c');
+
+	putchar('h');
+
+	putchar('a');
+
+	putchar('r');
+
+	putchar('\n');
 
 
-
-	for (i = 0; i < 9; i++)
-
-		{
-
-		putchar(p[i]);
-
-		}
-
-		putchar('\n');
 
 	return (0);
 

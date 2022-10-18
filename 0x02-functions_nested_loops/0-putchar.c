@@ -1,11 +1,9 @@
 #include "stdio.h"
 
-
-
 /**
- * main - print _putchar, followed by new line
- *Return: 0
- */
+* main - Print the word "_putchar"
+* Return: Always 0 (Success)
+*/
 
 
 
@@ -13,23 +11,21 @@ int main(void)
 
 {
 
-	putchar('_');
+	int i;
 
-	putchar('p');
+	char p[] = "Holberton";
 
-	putchar('u');
 
-	putchar('t');
 
-	putchar('c');
+	for (i = 0; i < 9; i++)
 
-	putchar('h');
+		{
 
-	putchar('a');
+		putchar(p[i]);
 
-	putchar('r');
+		}
 
-	putchar('\n');
+		putchar('\n');
 
 	return (0);
 

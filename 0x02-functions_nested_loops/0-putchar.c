@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "stdio.h"
 
 
 
@@ -23,11 +23,11 @@ int main(void)
 
 		{
 
-		_putchar(p[i]);
+		putchar(p[i]);
 
 		}
 
-		_putchar('\n');
+		putchar('\n');
 
 	return (0);
 

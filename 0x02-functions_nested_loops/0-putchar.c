@@ -1,4 +1,6 @@
-#include "stdio.h"
+#include "main.h"
+
+
 
 /**
 * main - Print the word "_putchar"
@@ -13,7 +15,7 @@ int main(void)
 
 	int i;
 
-	char p[] = "Holberton";
+	char p[] = "_putchar";
 
 
 
@@ -21,11 +23,11 @@ int main(void)
 
 		{
 
-		putchar(p[i]);
+		_putchar(p[i]);
 
 		}
 
-		putchar('\n');
+		_putchar('\n');
 
 	return (0);
 

@@ -9,59 +9,14 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	int i, j;
+	char *temp = dest;
 
-	i = j = 0;
-	while (*(dest + i))
-		i++;
-	while ((*(dest + i) = *(src + j)))
-	{
-		i++;
-		j++;
-	}
-	return (dest);
-}#include "holberton.h"
+	while (*dest)
+		dest++;
 
-/**
- * _strcat - appends src to the dest string
- * @dest: string to append by src
- * @src: string to append to dest
- *
- * Return: address of dest
- */
-char *_strcat(char *dest, char *src)
-{
-	int i, j;
+	while (*src)
+		*dest++ = *src++;
 
-	i = j = 0;
-	while (*(dest + i))
-		i++;
-	while ((*(dest + i) = *(src + j)))
-	{
-		i++;
-		j++;
-	}
-	return (dest);
-}#include "holberton.h"
-
-/**
- * _strcat - appends src to the dest string
- * @dest: string to append by src
- * @src: string to append to dest
- *
- * Return: address of dest
- */
-char *_strcat(char *dest, char *src)
-{
-	int i, j;
-
-	i = j = 0;
-	while (*(dest + i))
-		i++;
-	while ((*(dest + i) = *(src + j)))
-	{
-		i++;
-		j++;
-	}
-	return (dest);
+	*dest = '\0';
+	return (temp);
 }
